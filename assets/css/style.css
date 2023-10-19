@@ -157,3 +157,47 @@ html {
 .service-text-border a:hover {
   color: rgb(212, 53, 79);
 }
+
+/* counter  */
+
+#counter-bg {
+  height: 40vh;
+  background-image: url("../image/count_bg.jpg");
+  background-size: cover;
+}
+#count_overlay {
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.circle {
+  display: flex;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.2);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.circle-text h5 {
+  text-align: center;
+  font-size: 40px;
+}
+.circle-text span {
+  text-align: center;
+  color: white;
+
+  font-size: 18px;
+}
+/*counter cards */
+
+.card-body {
+  background: rgb(201, 110, 110);
+  border: none;
+  text-align: center;
+}
+.card-body small {
+  font-size: 20px;
+}
