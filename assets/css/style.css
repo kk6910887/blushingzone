@@ -238,3 +238,36 @@ html {
    background-size: contain;
    
 }
+
+/* Contact-section */
+
+.form-design input {
+  outline: none;
+  color: gold;
+  background: rgb(21, 18, 18);
+  border: none;
+  border:1px solid grey;
+}
+.form-design textarea {
+  outline: none;
+  color: gold;
+  background: rgb(21, 18, 18);
+  border:1px solid grey;
+}
+.btn button {
+  background:#f5793b;
+  font-size: 17px;
+  border: none;
+  color:white;
+  font-family: "Teko", sans-serif;
+}
+.contact-info {
+  padding-top: 85px;
+}
+.contact-info h3 {
+  color: #e52e71;
+  font-size: 30px;
+}
+.contact-info span {
+  color: rgb(169, 164, 164);
+}
