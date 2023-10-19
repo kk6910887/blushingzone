@@ -106,3 +106,54 @@ html {
   font-size: 16px;
 }
 
+
+/* services section */
+.service-text h5 {
+  font-family: "Caveat", cursive;
+  font-size: 27px;
+}
+.service-text h1 {
+  font-weight: bold;
+}
+
+.service_box {
+  width: 43vh;
+  height: 42vh;
+  margin-bottom: 15px;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.service_box img {
+  width: 43vh;
+  height: 42vh;
+  transform-origin: 65% 75%;
+  transition: transform 1s, filter 0.5s ease-out;
+  filter: brightness(100%);
+}
+
+.service_box:hover img {
+  filter: brightness(75%);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.service-text-border a {
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+.service-text-border {
+  background: black;
+  width: 35vh;
+  height: 55px;
+  text-align: center;
+  padding-top: 13px;
+  position: relative;
+  bottom: 40px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.service-text-border a:hover {
+  color: rgb(212, 53, 79);
+}
