@@ -225,3 +225,16 @@ html {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+/* testimonial */
+
+.testimonial-circle img{
+   width:200px;
+   height:200px;
+   border-radius: 50%;
+   /* background-image:url('../image/testimonial1.jpg'); */
+   
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+}
